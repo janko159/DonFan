@@ -5,6 +5,12 @@ body{
   font-family: sans-serif;
 }
 
+.backgroundImage{
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+}
+
 .reveal {
   position: relative;
   transform: translateY(150px);
