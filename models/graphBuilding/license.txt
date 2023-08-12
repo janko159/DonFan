@@ -1,0 +1,11 @@
+Model Information:
+* title:	Building, Graph Composition
+* source:	https://sketchfab.com/3d-models/building-graph-composition-d44f4807f4b4486aa85a60cad10d1df0
+* author:	tkkjee ​🥀 (https://sketchfab.com/tkkjee)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Building, Graph Composition" (https://sketchfab.com/3d-models/building-graph-composition-d44f4807f4b4486aa85a60cad10d1df0) by tkkjee ​🥀 (https://sketchfab.com/tkkjee) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

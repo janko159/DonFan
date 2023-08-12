@@ -1,0 +1,306 @@
+body{
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.reveal {
+  position: relative;
+  transform: translateY(150px);
+  opacity: 0;
+  transition: all 1s;
+}
+
+.reveal.active {
+  transform: translateY(0);
+  opacity: 1;
+}
+
+section{
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+  overflow-x: hidden;
+}
+
+.set_vh{
+  position: relative;
+  height: 450vh;
+  width: 100vw;
+  overflow-x: hidden;
+}
+
+.youtube{
+  position: relative;
+  height: 450vh;
+  width: 100vw;
+  overflow-x: hidden;
+  /* background-color: #f86d03; */
+  background-color: rgba(128, 128, 128, 0.075);
+}
+
+#container3D{
+  position: relative;
+}
+
+#container3D canvas{
+  position: absolute;
+ max-width: 40%;
+ max-height: 75vh;
+  top: 100px;
+  right: 100px;
+}
+
+/* navbar */
+
+.navbar{
+  position: fixed;
+  width: 100vw;
+  height: 7.5%;
+  /* background-color: rgba(0, 157, 255, 0.986); */
+  opacity: 0.6;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  z-index: 5;
+}
+
+.navbar__active{
+  background-color: rgba(0, 157, 255, 0.986); 
+  opacity: 1;
+}
+
+.navbar--brand{
+  font-size: 2rem;
+  color: white;
+}
+
+.nav--links{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 3rem;
+}
+
+.nav--links a{
+  text-decoration: none;
+  font-size: 1.25rem;
+  color: white;
+}
+
+.navbar--header{
+  color: white;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  font-size: 2rem;
+}
+
+/* main */
+
+.background{
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+
+.main-heading{
+  position: absolute;
+  top: 15%;
+  left: 5%;
+  width: 22%;
+  color: rgba(255, 255, 255, 0.906);
+}
+
+.main-heading h1{
+  font-size: 3.5rem;
+}
+
+/* sekcia opis */
+
+#opis{
+  height: 200vh;
+  position: relative;
+ /*  z-index: 2; */
+  
+}
+
+.section__container{
+  background: linear-gradient(25.5deg, #F86F03 0%, #F86F03 50%, white 50%, white 100%);
+  position: absolute;
+  height: 100vh;
+  width: 100%;
+  top: 0;
+}
+
+.section__praca{
+  background: linear-gradient(205deg, #F86F03 0%, #F86F03 50%, white 50%, white 100%);
+  position: absolute;
+  height: 100vh;
+  width: 100%;
+  top: 100vh;
+}
+
+.description{
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  height: 50%;
+  width: 25%;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.description__opis{
+  left: -30%;
+  top: 40%;
+}
+
+.description h2{
+  font-size: 3.25rem;
+}
+
+.description p{
+  font-size: 1.35rem;
+  line-height: 1.85rem;
+}
+
+.description__praca{
+  right: -30%;
+  top: 10%;
+  text-align: center;
+}
+
+
+/* sekcia podnikanie */
+
+
+
+/* sekcia patreon */
+
+
+.patreonImg__container{
+  position: absolute;
+  top: 15%;
+  right: 4%;
+  max-width: 58%;
+}
+
+.patreonImg{
+  width: 100%;
+}
+
+.patreon__description{
+  position: absolute;
+  width: 25%;
+  left: 7.5%;
+  bottom: 30%;
+}
+
+.patreon__description p{
+  font-size: 1.75rem;
+}
+
+.youtube__description{
+  position: absolute;
+  width: 25%;
+  left: 7.5%;
+  bottom: 30%;
+}
+
+.youtube__description p{
+  font-size: 1.75rem;
+}
+
+.destroy__patreonImg{
+  position: absolute;
+  height: 100px;
+  width: 100px;
+  bottom: 3%;
+  right: 1%;
+}
+
+.destroy__youtubeImg{
+  position: absolute;
+  height: 100px;
+  width: 100px;
+  bottom: 9%;
+  right: 1%;
+}
+
+.youtubeImg__container{
+  position: absolute;
+  max-width: 58%;
+  top: 4%;
+  right: 4%;
+}
+
+.youtubeImg{
+  width: 100%;
+}
+
+.mojWebImg__container{
+  max-width: 90%;
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 7rem;
+  margin: 0 auto;
+}
+
+.mojWebImg__container p{
+  font-size: 2rem;
+  width: 25%;
+}
+
+.mojWebImg{
+  width: 40%;
+}
+
+.mainFooter__container{
+  margin-bottom: 2rem;
+}
+
+.mainFooter{
+  text-align: center;
+  font-size: 1.25rem;
+}
+
+@media (max-width:1600px) {
+  body{
+    overflow-x: hidden;
+  }
+  .patreonImg__container{
+    max-width: 55%;
+  }
+
+  .patreonImg{
+    width: 100%;
+  }
+
+  .youtubeImg__container{
+    max-width: 55%;
+  }
+
+  .youtubeImg{
+    width: 100%;
+  }
+
+  .mojWebImg{
+    width:30%;
+  }
+
+  .mojWebImg__container p{
+    font-size: 1.5rem;
+  }
+}
+
+
+
